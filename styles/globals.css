@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#imggithub img {
+ max-width: 100px;
+ border-radius: 3rem;
+}
