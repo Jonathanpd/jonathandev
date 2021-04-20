@@ -118,6 +118,12 @@
   font-size: 12px;
 }
 
+@media (max-width: 655px) {
+  .card {
+    min-width: 80vw;
+  }
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
