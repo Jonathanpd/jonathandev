@@ -119,16 +119,19 @@
 }
 
 @media (max-width: 655px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .main {
+    padding: 0 20px;
+  }
   .card {
     min-width: 80vw;
     max-width: 80vw;
     width: 100%;
   }
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+  .title {
+    font-size: 2rem;
   }
 }
