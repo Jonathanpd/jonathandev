@@ -121,6 +121,8 @@
 @media (max-width: 655px) {
   .card {
     min-width: 80vw;
+    max-width: 80vw;
+    width: 100%;
   }
 }
 
