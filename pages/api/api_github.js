@@ -3,7 +3,7 @@ async function fetchGitHub(url) {
     const githubJSON = await githubResponse.json();
     const divAvatarUrl = document.querySelector('#imggithub');
     divAvatarUrl.innerHTML = `<img src=${githubJSON.avatar_url} alt=${githubJSON.name}/>`;
-    console.log(githubJSON);
+    //console.log(githubJSON);
 }
 
 //fetchGitHub('https://api.github.com/users/jonathanpd');
